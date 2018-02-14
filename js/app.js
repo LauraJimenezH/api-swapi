@@ -1,5 +1,7 @@
 getFetch();
 
+var container = document.getElementById('container');
+
 function getFetch() {
   // const url = `https://swapi.co/api/people/?search=${searchValue}`;
 
@@ -11,12 +13,11 @@ function getFetch() {
     fetch(url)
       .then((resp) => resp.json())
       .then(function (data) {
-        console.log(data.name);
-        let results = data.results;
-        // results.forEach(val => {
-        //   console.log(val.name);
-        //   // algo();
-        // });
+        console.log(data);
+       
+          container.innerText += data.name;
+          // algo();  
+     
 
       })
       .catch(function (error) {

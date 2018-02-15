@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-image: url('../assets/images/cielo.gif');
+  background-size: contain;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  height: 150px;
+  margin-top: 40px;
+}
+
+#content .card {
+  display: inline-block;
+  width: 150px;
+  margin: 15px;
+}
+
+#modal-photo {
+  height: 230px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+.weight {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#modal-title {
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  #content .card {
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  #content .card {
+    width: 250px;
+  }
+}

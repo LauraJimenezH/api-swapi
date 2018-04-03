@@ -1,9 +1,10 @@
-# **SWAPI**
+# SWAPI
 
 Nos entregaron una api, y nos pidieron poder realizar con toda la información dada una app web donde los usuarios puedan visualizar a todos los personajes de Star Wars que al darle click aparecera un model con la informacion del personaje.
 
 ![Resultado](http://i68.tinypic.com/26279l4.png)
 
+## Desarrollado para [Laboratoria](http://laboratoria.la)
 
 ## **DESCRIPCIÓN DEL PROYECTO:**
 
